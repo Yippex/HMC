@@ -1,0 +1,97 @@
+:root {
+    --color-primary: #33FA5A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar{
+    margin: 10px 0;
+}
+.navbar .logo img {
+    width: 40px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar .nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav-menu ul li {
+    margin-left: 40px;
+}
+
+.navbar .nav-menu a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+
+.navbar .nav-menu a:hover {
+    color: #33FA5A;
+}
+
+
+.hero {
+    margin-bottom: 50px;
+}
+
+.hero .hero-content {
+    width: 70%;
+}
+
+.text-xxl {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 20px;
+    color: #fff;
+    background-color: #106d23;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+.hero .container {
+    background: url(/images/hero-bg.png) no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    height: 550px;
+}
